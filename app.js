@@ -1,1 +1,2 @@
-var app = angular.module('userProfiles', [])
+'use strict';
+var app = angular.module('userProfiles', []);

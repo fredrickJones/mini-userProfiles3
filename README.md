@@ -112,6 +112,7 @@ var app = angular.module('userProfiles');
 
 app.service('mainService', function($http, $q) {
   var deferred = $q.defer();
+  
   this.getUsers = function() {
     $http({
         method: 'GET',
